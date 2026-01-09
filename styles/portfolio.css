@@ -16,8 +16,8 @@ header{
     background-repeat: no-repeat;
 }
 nav{
-    width: 71%;
-    max-width: 1210px;
+    width: 75%;
+    
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ nav{
     align-items: center;
 }
 .hero-image img{
-    width: 700px;
+    width: 650px;
     vertical-align: middle;
     
 }
@@ -105,4 +105,67 @@ nav{
     cursor: pointer;
     
 }
+#about{
+    padding-top: 130px;
+    
 
+}
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+    border-radius: 10px;
+}
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+.section-heading p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+#about .about-container .info-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    line-height: 30px;
+    
+}
+.about-container .info-card .name h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.about-container .info-card .email h4{
+    font-size: 18px;
+    font-weight:bold
+}
+.about-container .info-card .date h4{
+    font-size: 18px;
+    font-weight:bold;
+}
+.about-container .info-card .from h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.about-container .info-card .name p{
+    font-size: 18px;
+    color: #757575;
+}
+.about-container .info-card .email p{
+    font-size: 18px;
+    color: #757575;
+}
+.about-container .info-card .date p{
+    font-size: 18px;
+    color: #757575;
+}
+.about-container .info-card .from p {
+    font-size: 18px;
+    color: #757575;
+}

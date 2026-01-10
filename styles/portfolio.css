@@ -296,5 +296,68 @@ nav{
     display: flex;
     margin: 0 auto;
     margin-top: 50px;
+    cursor: pointer;
     
 }
+.color{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display:flex;
+    gap: 230px;
+    padding-top: 130px;
+    /* border: 1px solid black; */
+    margin-top: 113px;
+    width: 100%
+    
+
+}
+.social{
+    
+    margin-left: 270px;
+    max-width: 562px;
+}
+.social h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #100;
+    margin-bottom: 20px;
+}
+.social p{
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.int{
+    margin-right: 24px;
+}
+.form h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.te, textarea{
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.bt{
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 19px 39px;
+    margin-bottom: 140px;
+    display: block;
+    cursor: pointer;
+    
+}
+

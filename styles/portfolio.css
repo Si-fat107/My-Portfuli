@@ -82,10 +82,14 @@ nav{
     width: 585px;
     margin-bottom: 30px;
 }
+.btn4 img{
+    width: 24px;
+    margin-right: 10px;
+}
 .btn4{
     background-color: #FD6E0A;
     border: none;
-    padding: 19px 17px;
+    padding: 18px 17px 20px;
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
@@ -94,11 +98,16 @@ nav{
     margin-right: 30px;
     cursor: pointer;
 }
+.btn5 img{
+    width: 24px;
+    margin-right: 10px;
+    
+}
 .btn5{
     background-color: #ffffff;
     border: #FD6E0A 1px solid;
     color: #FD6E0A;
-    padding: 19px 17px;
+    padding: 18px 17px 20px;
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
@@ -210,7 +219,7 @@ nav{
     padding: 30px;
     width: 267px;
     background-color: #FFFFFF;
-    box-shadow: 0 6px 50px 0 #0000002d;
+    box-shadow: 0 6px 50px 0 #00000015;
 
 }
 .skills-card h3{
@@ -227,4 +236,65 @@ nav{
 .skills-card img{
     width: 44px;
     margin-bottom: 30px;
+}
+#resume{
+    padding-top: 130px;
+}
+.section-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 113px;
+}
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+.education{
+    margin-left: 300px;
+    max-width: 511px;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.experience{
+    max-width: 511px;
+}
+.btn0 img {
+    width: 24px;
+    margin-right: 10px;
+}
+.btn0{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20PX;
+    font-weight: bold;
+    padding: 20px 18px;
+    border-radius: 5px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    
 }

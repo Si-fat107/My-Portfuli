@@ -12,7 +12,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 51px;
     background-image: url("../images/developer.png") , url("../images/header_bg.png");
-    background-position: center left, bottom right;
+    background-position: 23px , bottom right;
     background-repeat: no-repeat;
 }
 nav{
@@ -281,17 +281,15 @@ nav{
 .experience{
     max-width: 511px;
 }
-.btn0 img {
-    width: 24px;
-    margin-right: 10px;
-}
+
+
 .btn0{
     background-color: #FD6E0A;
     color: #FFFFFF;
     border: none;
     font-size: 20PX;
     font-weight: bold;
-    padding: 20px 18px;
+    padding: 18px 35px;
     border-radius: 5px;
     display: flex;
     margin: 0 auto;
@@ -360,4 +358,122 @@ nav{
     cursor: pointer;
     
 }
+.hide{
+    display: none !important;
+}
+@media screen and (max-width: 576px) {
+    .skills-container {
+            width: 95%;
+    }        
+    #skills {
+            padding-top: 60px;
+}
+.skills-heading h2 {
+    font-size: 28px;
+}
+.about-container {
+  
+    padding: 20px;
+    
+}
+.skills-box, #about .about-container .info-card, .footer-container, .resume-container, nav, .hero-content, #hero{
+  flex-direction: column;
+}
+.btn-grp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.skills-card {
+    padding: 30px;
+    width: 100%;
+  
+}
+.section-heading {
+  
+    margin-bottom: 50px;
+}
+.social {
+    width: 100%;
+    margin-left: auto;
+}
+.footer-container {
+    padding-top: 60px;
+    gap: 100px;
+    margin-top: 60px;
+}
+.bt {
+    margin-bottom: 60px;
+
+}
+.te,
+textarea {
+    width: 100%;
+}
+.education {
+    margin-left: 20px;
+    max-width: 100%;
+}
+.experience {
+    max-width: 100%;
+    margin-left: 20px;
+}
+#resume {
+    padding-top: 60px;
+}
+nav {
+gap: 20px;
+
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.line {
+justify-content: center;
+flex-wrap: wrap;
+}
+.hero-image img {
+    width: 100%;
+}
+
+.hero-content p {
+    width: 100%;
+
+}
+.hero-image img {
+    width: 100%;
+}
+.hero-content h1 {
+    font-size: 55px;
+}
+.hero-content h2{
+    font-size: 40px;
+}
+.hero-content{
+    text-align: center;
+}
+#hero{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+#hero {
+    margin: 100px 0px 0px;
+
+}
+header {
+    background-image: url(../images/header_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+    
+
+}
+
+
+
 

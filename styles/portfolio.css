@@ -403,6 +403,10 @@ nav{
     padding-top: 60px;
     gap: 100px;
     margin-top: 60px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    justify-items: center;
+    width: 100%;
 }
 .bt {
     margin-bottom: 60px;
